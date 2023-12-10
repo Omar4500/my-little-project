@@ -1,0 +1,66 @@
+table, th, td {
+    border:5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width:50%;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+table {
+    margin:auto;
+}
+
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url('whiteblue.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100% 100%;
+  border-radius: 10px;
+
+
+}
+
+li {
+    display:inline;
+    color: white;
+    float: left;
+    padding:10px;
+    padding-top:10px;
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color:rgb(21, 137, 226);
+    border-radius:5px;
+    padding:10px;
+}
+
+a:visited {
+    color:black;
+}
+p.h:hover{
+    background-color: rgb(240, 243, 245);
+    color: rgb(14, 163, 222);
+
+
+}
+tr:hover{
+    background-color: rgb(45, 130, 220);
+    color: rgb(255, 255, 255);
+
+    
+}

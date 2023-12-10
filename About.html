@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatih1ble" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="about.css">
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["email"].value;
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+        }
+    </script>
+    
+    <script>
+        
+        function mOver(obj) {
+      obj.innerHTML = "Thank You for join"
+    }
+    
+    function mOut(obj) {
+      obj.innerHTML = "Join to Our Community"
+    }
+    </script>
+
+</head>
+<body>
+    <ul style="position: sticky; top: 0; text-decoration: none;">
+        <li><a class="hov act" href="Finl Project.html" target="_blank">Home</a></li>
+        <li><a class="hov act" href="liverpool.html"  target="_blank" >Liverpool</a></li>
+        <li><a class="hov act" href="Real_Madrid.html"  target="_blank" >Real Madrid</a></li>
+        <li><a class="hov act" href="Ac_Milan.html"  target="_blank">Ac Milan</a></li>
+        <li><a class="hov act" href="About.html"  target="_blank" >About</a></li>
+        <li style="float:right;"><img src="it.jpg" alt="" style="float:right;"></li>
+    </ul>
+    <style> 
+        body {
+            background-image: url(Back-it.webp);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+    <br> <br> <br>
+    <h1 style="color: white; text-align: center;  ">Members Participating In This Project</h1>
+    <p style="text-align: center; color: white;" >Th subject is about Champion league web,<br> talk about there clubs (Liver pool, Real Madrid, and Ac Milan).<br>
+
+        we use different tools to create this project by using HTML, CSS, JAVASCRIPT.
+    </p>
+    <table >
+        <tr>
+            <th>Name</th>
+            <td>omar obade</td>
+            <td>thamr obade</td>
+            <td> zyade obade</td>
+        </tr>
+        <tr>
+            <th>Academic Number</th>
+            <td>422010959</td>
+            <td>----------</td>
+            <td>----------</td>
+        </tr>
+        <tr>
+            <th>work in </th>
+            <td>Html</td>
+            <td>Css</td>
+            <td>JAVASCRIPT</td>
+            <tr>
+                <th>Email</th>
+                <td>omarobade859@gmail.com</td>
+                <td>thamrobady100@gmail.com</td>
+                <td>zyadeobade100@gmail.com</td>
+
+            </tr>
+
+        </tr>
+        
+      
+    </table>
+
+
+
+
+    <form  id="myForm">
+        <fieldset>
+         
+            <legend>Contact us</legend>
+            <label for="Fname"> Firest Name</label><br>
+            <input  type="text" id="Fname" placeholder="omar" >  <br>
+            <label for="Lname"> Last Name</label><br>
+            <input type="text" id="Lname" placeholder="obade"><br>
+            <label for="num"> Phon Number</label><br>
+            <input type="tel" id="num" placeholder="0534233154" pattern="[0-9]{10}" title="Enter only 10 Numbers"><br>
+            <label for="email"> Email</label><br>
+            <input  type="email" id="Em" placeholder="omarobade859@gmail.com"> <br> <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        </form>
+        
+            </div>
+</body>
+</html>

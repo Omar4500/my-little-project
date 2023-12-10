@@ -1,0 +1,48 @@
+div {
+  width: 320px;
+  padding: 10px;
+  
+}
+h2{
+  color:red;
+}
+div {
+  border:3px solid green ;
+}
+p{
+  color: blue;
+  
+}
+
+.h2{
+  background-color:rgb(237, 180, 180);
+  color:red;
+}
+.p2{
+  color: brown ;
+  }
+  body{
+ background-color:antiquewhite
+  }
+  ol {
+    background: #ff9999;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }
